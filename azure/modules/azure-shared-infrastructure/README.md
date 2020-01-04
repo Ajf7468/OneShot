@@ -1,12 +1,12 @@
-#Remote State Command#
+#Remote State Command#  
 TBA (Local State for now)
 
-#Plan Command#
+#Plan Command#  
 terraform plan -var-file="../shared.tfvars" -out ./plan
 
-#Destroy Plan#
+#Destroy Plan#  
 terraform plan -destroy -var-file="../shared.tfvars" -out ./plan
 
-#Apply Plan#
+#Apply Plan#  
 terraform apply "./plan"
 
