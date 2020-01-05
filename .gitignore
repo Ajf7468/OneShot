@@ -6,5 +6,8 @@
 *.tfstate
 *.tfstate.*
 
-# .tfvars files
-*.tfvars
+#secrets files
+**secret**
+
+#plan files
+plan

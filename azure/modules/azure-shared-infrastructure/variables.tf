@@ -1,4 +1,4 @@
-### Module Variables ###
+### Shared Variables ###
 variable "location" {
   type        = string
   description = "The Azure Datacenter to deploy the resources (East US 2...)"
@@ -44,7 +44,7 @@ variable "tenant_name" {
   description = "Tenant Name for the module (Larry, Oh410...)"
 }
 
-#Resource Group Variables
+#Module Variables
 variable "resource_group_names" {
   type    = list(string)
   default = ["networking", "datastores", "storage", "appservices"]
