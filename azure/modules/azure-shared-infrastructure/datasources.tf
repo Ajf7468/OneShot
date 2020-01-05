@@ -1,6 +1,6 @@
 locals {
   #Derived Values
-  resource_naming_pattern = "${var.tenant_name}_${var.region_name}_${var.environment_name}_${var.instance_name}_"
+  resource_naming_pattern = "${var.tenant_name}-${var.region_name}-${var.environment_name}-${var.instance_name}-"
 
   common_tags = {
     product        = var.product_name
